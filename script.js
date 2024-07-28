@@ -1,7 +1,9 @@
+// 11
+// 12
+// 13
+// 14
+// 15
 // 16
-// 7
-// 102
-// 103
 
 class Memorama {
 
@@ -12,7 +14,7 @@ class Memorama {
         this.card1 = null;
         this.card2 = null;
 
-        this.availableImages = [16, 7, 102, 103];
+        this.availableImages = [11, 12, 13, 14, 15, 16];
         this.orderForThisRound = [];
         this.cards = Array.from( document.querySelectorAll(".board-game figure") );
 
